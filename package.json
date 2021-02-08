@@ -1,0 +1,45 @@
+{
+  "name": "openapi-chopper",
+  "version": "1.0.0",
+  "description": "Utility to chop up an OpenAPI specification",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "coverage": "export NODE_ENV=test && nyc --reporter=html --reporter=text ./node_modules/.bin/_mocha --exit --recursive --timeout 10000 ; open ./coverage/index.html",
+    "test": "export NODE_ENV=test && mocha --exit --recursive --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SensibleWood/openapi-chopper.git"
+  },
+  "keywords": [
+    "openapi",
+    "swagger",
+    "chopper"
+  ],
+  "author": "Chris Wood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SensibleWood/openapi-chopper/issues"
+  },
+  "homepage": "https://github.com/SensibleWood/openapi-chopper#readme",
+  "dependencies": {
+    "@apidevtools/swagger-parser": "^10.0.2",
+    "jsonpath": "^1.1.0",
+    "jsonpath-plus": "^5.0.2",
+    "nyc": "^15.1.0",
+    "openapi-types": "^7.2.3",
+    "yamljs": "^0.3.0",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "mocha": "^8.2.1"
+  }
+}
