@@ -4,7 +4,7 @@ It's for chopping up OpenAPI specs and that. Feed it some URIs, it merrily chops
 
 More details to follow soon...
 
-# Usage
+# Usage
 
 Do as follows:
 
