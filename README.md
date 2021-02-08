@@ -1,6 +1,6 @@
 # Brief
 
-It's for chopping up OpenAPI specs and that. Feed it some URIs, it merrily chops away.
+It's for chopping up OpenAPI specs and that. Feed it some URIs, it merrily chops away. Good for paring down massive specs into bit-sized chunks.
 
 More details to follow soon...
 
