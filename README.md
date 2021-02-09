@@ -11,7 +11,7 @@ Do as follows:
 ```bash
 git clone https://github.com/SensibleWood/openapi-chopper
 cd openapi-chopper
-yarn install
+yarn install && mkdir build
 ./scripts/chopper.js --input test/data/petstore-input.yaml --output build/test-output.yaml /pet
 ```
 
